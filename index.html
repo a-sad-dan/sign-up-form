@@ -38,11 +38,11 @@
           </div>
         </div>
         <div class="form-area">
-          <form action="">
+          <form action="" method="" >
             <div class="form-row">
               <div class="field">
                 <label for="first-name">first name</label>
-                <input type="text" name="first-name" id="first-name" />
+                <input required type="text" name="first-name" id="first-name" />
               </div>
 
               <div class="field">
@@ -54,7 +54,7 @@
               <div class="field">
 
                 <label for="email">email</label>
-                <input type="text" name="email" id="email" />
+                <input required type="email" name="email" id="email" />
               </div>
               <div class="field">
 
@@ -65,22 +65,22 @@
             <div class="form-row">
               <div class="field">
                 <label for="password">starcode</label>
-                <input type="password" name="password" id="password" />
+                <input type="password" name="password" id="password" required />
               </div>
               <div class="field">
-                <label for="confirm-password">confirm starcode</label>
+                <label for="confirm-password" required>confirm starcode</label>
                 <input
-                type="password"
+                type="password" required
                 name="confirm-password"
                 id="confirm-password"
               />
-              </div>
             </div>
-          </form>
+          </div>
           <div class="submit-div">
             <button type="submit">Enlist Now</button>
             <p class="disclaimer">By clicking "Enlist now," you pledge to explore the cosmos as part of the Galactic Alliance and protect the universe from darkness.</p>
           </div>
+        </form>
         </div>
       </div>
     </div>
