@@ -4,15 +4,14 @@
   padding: 0;
   color: #f9f9f9;
 }
+
 body {
   height: 100vh;
   display: grid;
   grid-template-columns: 35% 65%;
-  background: linear-gradient(
-      50deg,
+  background: linear-gradient(50deg,
       rgba(0, 0, 0, 0.4) 0%,
-      rgba(0, 0, 0, 0.7) 100%
-    ),
+      rgba(0, 0, 0, 0.7) 100%),
     url(Assets/bg1.jpg), lightgray 50% / cover no-repeat;
 }
 
@@ -32,7 +31,11 @@ body {
 }
 
 .spaceship-img {
-  width: 460px;
+  width: 110%;
+  position: relative;
+  left: 20%;
+  top: 10%;
+  transform: rotate(7deg);
 }
 
 .logo-area {
@@ -77,6 +80,7 @@ body {
   justify-content: space-between;
   gap: 2rem;
 }
+
 form {
   width: 100%;
   display: flex;
@@ -99,9 +103,11 @@ input {
   font-weight: 400;
   padding-left: 0.5rem;
 }
+
 input::placeholder {
   color: rgba(0, 0, 0, 0.5);
 }
+
 .form-row {
   display: flex;
   flex-direction: row;
@@ -139,6 +145,7 @@ header {
   font-weight: 400;
   letter-spacing: 0.36px;
 }
+
 .subheader-text {
   font-style: normal;
   font-weight: 400;
@@ -150,6 +157,7 @@ header {
 .disclaimer {
   font-weight: 300;
 }
+
 .footer-links {
   text-align: center;
 }
